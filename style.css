@@ -2,7 +2,7 @@ body{
     background-color:black ;
     border-radius: 25%;
 }
-.output{background-color:white;
+.output{background-color:black;
     margin-bottom: 10px;
     height: 500px;
     width: 600px;
@@ -18,6 +18,7 @@ body{
     background-color:white;
     font-size: larger;
     margin: 20px;
+    margin-left: 10px;
 }
 .button{    
     display: flex;
@@ -28,6 +29,13 @@ body{
     gap: 30px;
     padding: 10px;
     background-color: black;
+}
+button:hover{
+    background-color: aqua
+}
+button:active{
+    background-color: blueviolet
+;transform: translate(5x)
 }
 button{;
     height: 100px;
