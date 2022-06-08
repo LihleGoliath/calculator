@@ -1,24 +1,32 @@
 body{
-    background-color:black ;
+    background-color:white ;
     border-radius: 25%;
+    display:flex;
+    justify-content: center;
+    background-image: url(./cal-image/filter-1990470__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     object-fit: cover;
 }
-.output{background-color:black;
-    margin-bottom: 10px;
-    height: 500px;
-    width: 600px;
-    border-end-end-radius: 25%;
-    color: black;
-    
+.container{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:300px   ;
+    background-color: black;
+    margin-top: 100px ;
 }
-.submitbox{
-    width: 500px;
-    height: 100px;
+
+#output{
+    height: 70px;
     border: 5px black;
     color: black;
     background-color:white;
     font-size: larger;
     margin: 20px;
-    margin-left: 10px;
+
+    padding-left: -10px;
 }
 .button{    
     display: flex;
@@ -26,8 +34,8 @@ body{
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    gap: 30px;
-    padding: 10px;
+   
+    
     background-color: black;
 }
 button:hover{
@@ -37,10 +45,10 @@ button:active{
     background-color: blueviolet
 ;transform: translate(5x)
 }
-button{;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 25%;
     color:wheat;
     background-color:blue;
     font-size: larger ;
