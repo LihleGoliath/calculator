@@ -33,3 +33,6 @@ function changegreen(){
 function changewhite(){
     document.querySelector('#output').style.backgroundColor = 'white';
 }
+function blackcolor(){
+    document.querySelector('#output').style.color = 'black';
+}
